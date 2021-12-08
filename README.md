@@ -11,10 +11,17 @@ This was made so i can try out something new, so the structure is kinda wonky, b
 ## Requirements
 
 - golang 
+- get token from gorest
 - maybe ginkgo, not sure if tests run locally without it(https://github.com/onsi/ginkgo)
 - github.com/vakenbolt/go-test-report/ this if you want fancy html output
 
 if you have golang and make, you can run `make dep` to install the bottom two requirements
+
+## Setup
+create .env file that looks like this 
+```
+API_TOKEN=${insert api token here}
+```
 
 ## Commands
 
